@@ -1,0 +1,353 @@
+{
+	"topWindow": {
+		"path": "windows/page_header.vue",
+		"style": {
+			"height": "60px"
+		},
+		"matchMedia": {
+			"minWidth": 1200 //生效条件，当窗口宽度大于768px时显示
+		}
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/webview/webview",
+			"style" :
+			{
+				"navigationBarTitleText": "网址跳转"
+			}
+		},
+		{
+			"path": "pages/comment/edit",
+			"style": {
+				"navigationBarTitleText": "评论"
+			}
+		},
+		{
+			"path": "pages/media/music",
+			"style": {
+				"navigationBarTitleText": "音乐",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/image",
+			"style": {
+				"navigationBarTitleText": "图片预览",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/video",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/account/forgot",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/account/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/account/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/article/list",
+			"style": {
+				"navigationBarTitleText": "社区资讯"
+			}
+		},{
+			"path": "pages/article/index",
+			"style": {
+				"navigationBarTitleText": "社区资讯列表"
+			}
+		}, {
+			"path": "pages/article/details",
+			"style": {
+				"navigationBarTitleText": "社区资讯详情"
+			}
+		},
+		{
+			"path": "pages/notice/list",
+			"style": {
+				"navigationBarTitleText": "公告信息列表"
+			}
+		},
+		{
+			"path": "pages/notice/details",
+			"style": {
+				"navigationBarTitleText": "公告信息"
+			}
+		},
+																// 养老保险列表路由
+		{
+			"path": "pages/endowment_insurance/list",
+			"style": {
+				"navigationBarTitleText": "养老保险列表"
+			}
+		},
+				// 养老保险详情路由
+		{
+			"path": "pages/endowment_insurance/details",
+			"style": {
+				"navigationBarTitleText": "养老保险"
+			}
+		},
+				// 老人保险缴费编辑路由
+		{
+			"path": "pages/elderly_insurance_payment/edit",
+			"style": {
+				"navigationBarTitleText": "老人保险缴费"
+			}
+		},
+						// 个人缴费编辑路由
+		{
+			"path": "pages/individual_payment/edit",
+			"style": {
+				"navigationBarTitleText": "个人缴费"
+			}
+		},
+										// 生活服务列表路由
+		{
+			"path": "pages/life_services/list",
+			"style": {
+				"navigationBarTitleText": "生活服务列表"
+			}
+		},
+				// 生活服务详情路由
+		{
+			"path": "pages/life_services/details",
+			"style": {
+				"navigationBarTitleText": "生活服务"
+			}
+		},
+				// 预约订单编辑路由
+		{
+			"path": "pages/appointment_order/edit",
+			"style": {
+				"navigationBarTitleText": "预约订单"
+			}
+		},
+						// 老人用户列表路由
+		{
+			"path": "pages/elderly_users/table",
+			"style": {
+				"navigationBarTitleText": "老人用户列表"
+			}
+		},
+		// 老人用户编辑路由
+		{
+			"path": "pages/elderly_users/view",
+			"style": {
+				"navigationBarTitleText": "老人用户详情"
+			}
+		},
+				// 老人家属列表路由
+		{
+			"path": "pages/family_members_of_the_elderly/table",
+			"style": {
+				"navigationBarTitleText": "老人家属列表"
+			}
+		},
+		// 老人家属编辑路由
+		{
+			"path": "pages/family_members_of_the_elderly/view",
+			"style": {
+				"navigationBarTitleText": "老人家属详情"
+			}
+		},
+				// 服务商列表路由
+		{
+			"path": "pages/service_provider/table",
+			"style": {
+				"navigationBarTitleText": "服务商列表"
+			}
+		},
+		// 服务商编辑路由
+		{
+			"path": "pages/service_provider/view",
+			"style": {
+				"navigationBarTitleText": "服务商详情"
+			}
+		},
+				// 服务分类列表路由
+		{
+			"path": "pages/service_classification/table",
+			"style": {
+				"navigationBarTitleText": "服务分类列表"
+			}
+		},
+		// 服务分类编辑路由
+		{
+			"path": "pages/service_classification/view",
+			"style": {
+				"navigationBarTitleText": "服务分类详情"
+			}
+		},
+				// 养老保险列表路由
+		{
+			"path": "pages/endowment_insurance/table",
+			"style": {
+				"navigationBarTitleText": "养老保险列表"
+			}
+		},
+		// 养老保险编辑路由
+		{
+			"path": "pages/endowment_insurance/view",
+			"style": {
+				"navigationBarTitleText": "养老保险详情"
+			}
+		},
+				// 老人保险缴费列表路由
+		{
+			"path": "pages/elderly_insurance_payment/table",
+			"style": {
+				"navigationBarTitleText": "老人保险缴费列表"
+			}
+		},
+		// 老人保险缴费编辑路由
+		{
+			"path": "pages/elderly_insurance_payment/view",
+			"style": {
+				"navigationBarTitleText": "老人保险缴费详情"
+			}
+		},
+				// 个人缴费列表路由
+		{
+			"path": "pages/individual_payment/table",
+			"style": {
+				"navigationBarTitleText": "个人缴费列表"
+			}
+		},
+		// 个人缴费编辑路由
+		{
+			"path": "pages/individual_payment/view",
+			"style": {
+				"navigationBarTitleText": "个人缴费详情"
+			}
+		},
+				// 老人信息列表路由
+		{
+			"path": "pages/elderly_information/table",
+			"style": {
+				"navigationBarTitleText": "老人信息列表"
+			}
+		},
+		// 老人信息编辑路由
+		{
+			"path": "pages/elderly_information/view",
+			"style": {
+				"navigationBarTitleText": "老人信息详情"
+			}
+		},
+				// 生活服务列表路由
+		{
+			"path": "pages/life_services/table",
+			"style": {
+				"navigationBarTitleText": "生活服务列表"
+			}
+		},
+		// 生活服务编辑路由
+		{
+			"path": "pages/life_services/view",
+			"style": {
+				"navigationBarTitleText": "生活服务详情"
+			}
+		},
+				// 预约订单列表路由
+		{
+			"path": "pages/appointment_order/table",
+			"style": {
+				"navigationBarTitleText": "预约订单列表"
+			}
+		},
+		// 预约订单编辑路由
+		{
+			"path": "pages/appointment_order/view",
+			"style": {
+				"navigationBarTitleText": "预约订单详情"
+			}
+		},
+			{
+			"path": "pages/user/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/user/password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "pages/user/info",
+			"style": {
+				"navigationBarTitleText": "基本信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "长盛",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#3388FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/home_a.png",
+				"selectedIconPath": "static/img/home_b.png"
+			},
+			{
+				"pagePath": "pages/article/index",
+				"text": "社区资讯",
+				"iconPath": "static/img/article_a.png",
+				"selectedIconPath": "static/img/article_b.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "static/img/my_a.png",
+				"selectedIconPath": "static/img/my_b.png"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^mm_(.*)": "@/components/mm_vue_ui/base/mm_$1.vue"
+		}
+	}
+}
